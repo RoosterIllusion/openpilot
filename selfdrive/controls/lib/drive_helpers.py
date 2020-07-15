@@ -3,10 +3,10 @@ from common.numpy_fast import clip, interp
 from selfdrive.config import Conversions as CV
 
 # kph
-V_CRUISE_MAX = 144
+V_CRUISE_MAX = 160
 V_CRUISE_MIN = 8
-V_CRUISE_DELTA = 8
-V_CRUISE_ENABLE_MIN = 40
+V_CRUISE_DELTA = 1.61
+V_CRUISE_ENABLE_MIN = 20
 
 
 class MPC_COST_LAT:
